@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="../../css/global.css" />
+    <link rel="stylesheet" href="../../css/menu.css" />
+    <link rel="stylesheet" href="./contato.css" />
+    <link rel="stylesheet" href="./../../css/rodape.css" />
+    <link rel="stylesheet" href="../../css/modal_login.css" />
+
+    <script
+      src="https://kit.fontawesome.com/9dd2f670b6.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Contato</title>
+  </head>
+  <body>
+    <!-- MENU -->
+    <header>
+      <section>
+        <a href="../../index.html">
+          <img class="logo" src="../../assets/images/logo.png" alt="logo" />
+        </a>
+
+        <div class="input_pesquisar">
+          <input type="search" name="search" placeholder="Pesquisar" />
+          <i class="fas fa-search"></i>
+        </div>
+
+        <div class="user_conf">
+          <div class="user_conf_avatar">
+            <i class="fas fa-user"></i>
+            <h3>Lugh</h3>
+          </div>
+          <!-- MODAL DE LOGIN -->
+          <section class="login_container">
+            <form class="login_form">
+              <label class="form_section_label" for="login_form_user_name">
+                Nome de usuário
+              </label>
+              <input
+                type="text"
+                id="login_form_user_name"
+                placeholder="Insira seu nome de usuário ou email"
+              />
+              <label class="form_section_label" for="login_form_password">
+                Senha
+              </label>
+              <input
+                type="password"
+                id="login_form_password"
+                placeholder="Insira sua senha"
+              />
+              <span class="login_form_forgot_pwd">
+                <a href="#">
+                  <small>Esqueceu sua senha?</small>
+                </a>
+              </span>
+
+              <div class="login_form_buttons">
+                <button type="button">Criar Conta</button>
+                <button type="submit">Entrar</button>
+              </div>
+            </form>
+          </section>
+          <div class="user_conf_cart">
+            <i class="fas fa-shopping-cart" title="Carrinho"></i>
+          </div>
+        </div>
+      </section>
+      <span class="separador"></span>
+      <nav>
+        <ul class="menu">
+          <li class="menu_item">
+            <i class="fas fa-percent"></i>
+            <a href="../ofertas/ofertas.html">Ofertas</a>
+          </li>
+          <li class="menu_item">
+            <i class="fas fa-pump-medical"></i>
+            <a href="">Higiene e Beleza</a>
+          </li>
+          <li class="menu_item">
+            <i class="fas fa-baby-carriage"></i>
+            <a href="">Linha infantil</a>
+          </li>
+          <li class="menu_item">
+            <i class="fas fa-capsules"></i>
+            <a href="">Medicamentos e conveniência</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="intro">
+      <h1 class="intro_title">CONTATO</h1>
+      <p>Tire suas dúvidas com a gente</p>
+    </section>
+    <main>
+      <form>
+        <section class="form_section">
+          <label class="form_section_label" for="nome">
+            Nome
+            <input type="text" id="nome" name="nome" placeholder="Nome completo" />
+          </label>
+          <label class="form_section_label" for="email">
+            Email
+            <input type="email" id="email" name="email" placeholder="example@mail.com" />
+          </label>
+          <label class="form_section_label" for="telefone">
+            Telefone
+            <input type="text" id="telefone" name="telefone" placeholder="(11) 1111-111" />
+          </label>
+          <label class="form_section_label" for="msg">Mensagem</label>
+          <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Digite sua mensagem aqui"></textarea>
+        </section>
+
+        <button class="form_button">ENVIAR</button>
+      </form>
+    </main>
+    <footer class="rodape">
+      <div class="rodape_item">
+        <h3 class="rodape_item_title">
+          <a href="./nossa_historia.html">NOSSA HISTÓRIA</a>
+        </h3>
+        <p class="rodape_item_paragrafo">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+          quaerat, ab facilis dolores consequuntur placeat nobis? Recusandae
+          voluptate voluptat
+        </p>
+      </div>
+      <div class="rodape_item">
+        <h3 class="rodape_item_title">CONTATO</h3>
+        <ul class="contatos">
+          <li class="contatos_item">
+            <a href="tel:21991948654">(21) 99194-8654</a>
+          </li>
+          <li class="contatos_item">
+            <a href="mailto:farmacia.trabalhador@gmail.com" target="_blank"
+              >farmacia.trabalhador@gmail.com</a
+            >
+          </li>
+          <li class="contatos_item">Macapá-AP</li>
+        </ul>
+      </div>
+      <div class="rodape_item">
+        <h3 class="rodape_item_title">REDES SOCIAIS</h3>
+        <ul class="redes_sociais">
+          <l class="redes_sociais_item">
+            <i class="fab fa-whatsapp-square"></i>
+          </l>
+          <li class="redes_sociais_item">
+            <i class="fab fa-instagram-square"></i>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="../../js/main.js"></script>
+  </body>
+</html>

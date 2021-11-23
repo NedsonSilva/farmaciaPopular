@@ -1,0 +1,74 @@
+:root {
+  --background-yellow: #e9ec43;
+  --background-red: #eb5757;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  color: var(--background-red);
+  background: #f9f9f9;
+}
+
+.intro_title {
+  font-size: 36px;
+  margin-bottom: 22px;
+}
+
+.intro_title::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 2px;
+  background: var(--background-red);
+  margin: 0 auto;
+}
+
+main {
+  margin: 0 50px;
+  margin-top: 30px;
+}
+
+main > section {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+/* SESSÃO DA HISTÓRIA, MISSÃO... */
+.historia {
+  max-width: 50%;
+  line-height: 1.5;
+}
+
+.historia_title,
+.valores_title {
+  margin-bottom: 25px;
+}
+
+/* VALORES */
+.valores {
+  line-height: 1.5;
+}
+
+.historia_title::after,
+.valores_title::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 2px;
+  background: #000;
+}
+
+.valores_list {
+  list-style: '- ';
+  line-height: 1.5;
+}
+
+.mapa {
+  margin-top: 80px;
+  margin-bottom: 150px;
+}

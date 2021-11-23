@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/menu.css" />
+    <link rel="stylesheet" href="./css/modal_login.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/rodape.css" />
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="./assets/font_awesome_5.15.4/css/all.css" />
+
+    <title>Farmácia Popular</title>
+  </head>
+  <body>
+    <!-- MENU -->
+    <header>
+      <section>
+        <a href="./index.html">
+          <img class="logo" src="./assets/images/logo.png" alt="logo" />
+        </a>
+
+        <div class="input_pesquisar">
+          <input type="search" name="search" placeholder="Pesquisar" />
+          <i class="fas fa-search"></i>
+        </div>
+
+        <div class="user_conf">
+          <div class="user_conf_avatar">
+            <i class="fas fa-user"></i>
+            <h3>Lugh</h3>
+          </div>
+           <!-- MODAL DE LOGIN -->
+           <section class="login_container">
+            <form class="login_form">
+              <label for="login_form_user_name"> Nome de usuário </label>
+              <input
+                type="text"
+                id="login_form_user_name"
+                placeholder="Insira seu nome de usuário ou email"
+              />
+              <label for="login_form_password"> Senha </label>
+              <input
+                type="password"
+                id="login_form_password"
+                placeholder="Insira sua senha"
+              />  
+              <span class="login_form_forgot_pwd">
+                <a href="#">
+                  <small>Esqueceu sua senha?</small>
+                </a>
+              </span>
+
+              <div class="login_form_buttons">
+                <button type="button">Criar Conta</button>
+                <button type="submit">Entrar</button>
+              </div>
+            </form>
+          </section>
+          <div class="user_conf_cart">
+            <i class="fas fa-shopping-cart" title="Carrinho"></i>
+          </div>
+        </div>
+      </section>
+      <span class="separador"></span>
+      <nav>
+        <ul class="menu">
+          <li class="menu_item">
+            <i class="fas fa-percent"></i>
+            <a href="./pages/ofertas/ofertas.html">Ofertas</a>
+          </li>
+          <li class="menu_item">
+            <i class="fas fa-pump-medical"></i>
+            <a href="">Higiene e Beleza</a>
+          </li>
+          <li class="menu_item">
+            <i class="fas fa-baby-carriage"></i>
+            <a href="">Linha infantil</a>
+          </li>
+          <li class="menu_item">
+            <i class="fas fa-capsules"></i>
+            <a href="">Medicamentos e conveniência</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <article id="promocoes">
+        <h1 class="promocoes_title">AQUI TEM DESCONTO DE VERDADE</h1>
+
+        <p>
+          Fraldas mais barata você encontra aqui,<br />
+          Qualidade e preço justo
+        </p>
+
+        <a class="button_style promocoes_button" href="#">VER OFERTAS</a>
+      </article>
+      <article id="mais_vendidos">
+        <h2 class="mais_vendidos_title subtitle">Mais Vendidos</h2>
+
+        <section class="container_produto">
+          <div class="card_produto">
+            <img
+              class="card_produto_img"
+              src="./assets/images/caixa_remedio.png"
+              alt=""
+            />
+
+            <h3 class="card_produto_title">Creme hidratante</h3>
+
+            <span class="card_produto_preco">R$ 15,99</span>
+
+            <a class="button_style card_produto_button" href="#">Comprar</a>
+          </div>
+          <div class="card_produto">
+            <img
+              class="card_produto_img"
+              src="./assets/images/caixa_remedio.png"
+              alt=""
+            />
+
+            <h3 class="card_produto_title">Creme hidratante</h3>
+
+            <span class="card_produto_preco">R$ 15,99</span>
+
+            <a class="button_style card_produto_button" href="#">Comprar</a>
+          </div>
+          <div class="card_produto">
+            <img
+              class="card_produto_img"
+              src="./assets/images/caixa_remedio.png"
+              alt=""
+            />
+
+            <h3 class="card_produto_title">Creme hidratante</h3>
+
+            <span class="card_produto_preco">R$ 15,99</span>
+
+            <a class="button_style card_produto_button" href="#">Comprar</a>
+          </div>
+          <div class="card_produto">
+            <img
+              class="card_produto_img"
+              src="./assets/images/caixa_remedio.png"
+              alt=""
+            />
+
+            <h3 class="card_produto_title">Creme hidratante</h3>
+
+            <span class="card_produto_preco">R$ 15,99</span>
+
+            <a class="button_style card_produto_button" href="#">Comprar</a>
+          </div>
+        </section>
+      </article>
+      <article id="ofertas_especiais">
+        <h2 class="subtitle">Ofertas Especiais</h2>
+
+        <section class="container_produto">
+          <div class="card_produto">
+            <img
+              class="card_produto_img"
+              src="./assets/images/caixa_remedio.png"
+              alt=""
+            />
+
+            <h3 class="card_produto_title">Creme hidratante</h3>
+
+            <span class="card_produto_preco">R$ 15,99</span>
+
+            <a class="button_style card_produto_button" href="#">Comprar</a>
+          </div>
+          <div class="card_produto">
+            <img
+              class="card_produto_img"
+              src="./assets/images/caixa_remedio.png"
+              alt=""
+            />
+
+            <h3 class="card_produto_title">Creme hidratante</h3>
+
+            <span class="card_produto_preco">R$ 15,99</span>
+
+            <a class="button_style card_produto_button" href="#">Comprar</a>
+          </div>
+          <div class="card_produto">
+            <img
+              class="card_produto_img"
+              src="./assets/images/caixa_remedio.png"
+              alt=""
+            />
+
+            <h3 class="card_produto_title">Creme hidratante</h3>
+
+            <span class="card_produto_preco">R$ 15,99</span>
+
+            <a class="button_style card_produto_button" href="#">Comprar</a>
+          </div>
+          <div class="card_produto">
+            <img
+              class="card_produto_img"
+              src="./assets/images/caixa_remedio.png"
+              alt=""
+            />
+
+            <h3 class="card_produto_title">Creme hidratante</h3>
+
+            <span class="card_produto_preco">R$ 15,99</span>
+
+            <a class="button_style card_produto_button" href="#">Comprar</a>
+          </div>
+        </section>
+      </article>
+      <article id="container_servicos">
+        <h2 class="subtitle container_servicos_title">Serviços</h2>
+        <section class="servicos">
+          <div class="servicos_item">
+            <img
+              class="servicos_item_img"
+              src="./assets/images/administracao_medicamentos.png"
+              alt=""
+            />
+            <h3 class="servicos_item_title">Administração de medicamentos</h3>
+          </div>
+          <div class="servicos_item">
+            <img
+              class="servicos_item_img"
+              src="./assets/images/realizacao_curativos.png"
+              alt=""
+            />
+            <h3 class="servicos_item_title">Realização de curativos</h3>
+          </div>
+          <div class="servicos_item">
+            <img
+              class="servicos_item_img"
+              src="./assets/images/injetaveis.png"
+              alt=""
+            />
+            <h3 class="servicos_item_title">injetáveis</h3>
+          </div>
+          <div class="servicos_item">
+            <img
+              class="servicos_item_img"
+              src="./assets/images/monit_pressao_arterial.png"
+              alt=""
+            />
+            <h3 class="servicos_item_title">
+              Monitoramento da pressão arterial
+            </h3>
+          </div>
+          <div class="servicos_item">
+            <img
+              class="servicos_item_img"
+              src="./assets/images/monit_glicemia_capilar.png"
+              alt=""
+            />
+            <h3 class="servicos_item_title">
+              Monitoramento de glicemia capilar
+            </h3>
+          </div>
+          <div class="servicos_item">
+            <img
+              class="servicos_item_img"
+              src="./assets/images/monit_temperatura.png"
+              alt=""
+            />
+            <h3 class="servicos_item_title">Monitoramento de temperatura</h3>
+          </div>
+        </section>
+      </article>
+    </main>
+    <div class="genericos">
+      <h2 class="genericos_title">os melhores genéricos você encontra aqui</h2>
+    </div>
+
+    <footer class="rodape">
+      <div class="rodape_item">
+        <h3 class="rodape_item_title">
+          <a href="./pages/historia/nossa_historia.html">NOSSA HISTÓRIA</a>
+        </h3>
+        <p class="rodape_item_paragrafo">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+          quaerat, ab facilis dolores consequuntur placeat nobis? Recusandae
+          voluptate voluptat
+        </p>
+      </div>
+      <div class="rodape_item">
+        <h3 class="rodape_item_title">
+          <a href="pages/contato/contato.html">CONTATO</a>
+        </h3>
+        <ul class="contatos">
+          <li class="contatos_item">
+            <a href="tel:21991948654">(21) 99194-8654</a>
+          </li>
+          <li class="contatos_item">
+            <a href="mailto:farmacia.trabalhador@gmail.com" target="_blank"
+              >farmacia.trabalhador@gmail.com</a
+            >
+          </li>
+          <li class="contatos_item">Macapá-AP</li>
+        </ul>
+      </div>
+      <div class="rodape_item">
+        <h3 class="rodape_item_title">REDES SOCIAIS</h3>
+        <ul class="redes_sociais">
+          <l class="redes_sociais_item">
+            <i class="fab fa-whatsapp-square"></i>
+          </l>
+          <li class="redes_sociais_item">
+            <i class="fab fa-instagram-square"></i>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

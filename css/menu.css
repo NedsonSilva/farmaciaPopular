@@ -1,0 +1,102 @@
+:root {
+  --background-yellow: #e9ec43;
+  --background-red: #eb5757;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 100vw;
+  width: 100%;
+  height: 90px;
+  background: var(--background-yellow);
+}
+
+header > section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 50px;
+}
+
+.logo {
+  width: 150px;
+  height: 37px;
+}
+
+.input_pesquisar {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  height: 30px;
+  padding: 10px;
+  border-radius: 20px;
+  background: #f9f9f9;
+}
+
+.input_pesquisar input {
+  height: 100%;
+  width: 90%;
+  padding: 11px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  color: #555;
+}
+
+.input_pesquisar i {
+  margin-left: auto;
+  margin-right: 7px;
+  color: #aaa;
+}
+
+.separador {
+  border-bottom: 2px solid var(--background-red);
+  margin: 5px 0;
+}
+
+/* MENU */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0 50px;
+}
+
+.menu_item {
+  color: var(--background-red);
+  font-size: 1rem;
+}
+
+.menu_item a {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+
+.user_conf {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 150px;
+}
+
+.user_conf_avatar {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  color: #3f3f3f;
+}
+
+.user_conf_avatar h3 {
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.user_conf_cart {
+  font-size: 22px;
+  cursor: pointer;
+  color: #3f3f3f;
+}

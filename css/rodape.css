@@ -1,0 +1,45 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  background: var(--background-red);
+  padding: 25px 50px 50px 50px;
+  color: #fff;
+}
+
+/* Mapa integrado do google */
+
+.rodape_item_title {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.rodape_item_title::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 2px;
+  background: #fff;
+  align-self: center;
+  margin-top: 5px;
+}
+
+.contatos {
+  list-style-type: '- ';
+  margin-left: 10px;
+  line-height: 1.5;
+}
+
+.redes_sociais {
+  list-style: none;
+  display: flex;
+  column-gap: 20px;
+}
+
+.redes_sociais_item {
+  font-size: 30px;
+}
+
+.rodape_item {
+  max-width: 400px;
+}
